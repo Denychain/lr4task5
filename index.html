@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <title>Шахова дошка — task 5</title>
+  <style>
+    table{
+      border-collapse: collapse;       
+      margin: 2rem auto;   
+      border: 2px solid #000;      
+    }
+    td{
+      width: 60px; height: 60px;    
+      text-align: center;
+      vertical-align: middle;
+      font-size: 2rem;               
+    }
+
+    tr:nth-child(odd)  td:nth-child(even),
+    tr:nth-child(even) td:nth-child(odd){
+      background: #ffffff;
+    }
+
+    tr:nth-child(odd)  td:nth-child(odd),
+    tr:nth-child(even) td:nth-child(even){
+      background: #c5c5c5;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tbody>
+      <tr>
+        <td>&#9820;</td><td>&#9822;</td><td>&#9821;</td><td>&#9819;</td>
+        <td>&#9818;</td><td>&#9821;</td><td>&#9822;</td><td>&#9820;</td>
+      </tr>
+      <tr>
+        <td>&#9823;</td><td>&#9823;</td><td>&#9823;</td><td>&#9823;</td>
+        <td>&#9823;</td><td>&#9823;</td><td>&#9823;</td><td>&#9823;</td>
+      </tr>
+      <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr>
+        <td>&#9817;</td><td>&#9817;</td><td>&#9817;</td><td>&#9817;</td>
+        <td>&#9817;</td><td>&#9817;</td><td>&#9817;</td><td>&#9817;</td>
+      </tr>
+      <tr>
+        <td>&#9814;</td><td>&#9816;</td><td>&#9815;</td><td>&#9813;</td>
+        <td>&#9812;</td><td>&#9815;</td><td>&#9816;</td><td>&#9814;</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
